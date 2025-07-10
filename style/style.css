@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+/* Common style */
+
+.primary-font {
+    font-family: "Merriweather", serif;
+    font-optical-sizing: auto;
+    font-variation-settings:
+        "wdth" 100;
+}
+
+main {
+    width: 1320px;
+    margin: 0 auto;
+}
+
+/* banner section start here */
+.banner {
+    height: 600px;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+        url('../aset/images/Banner\ Image.png');
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner p {
+    font-size: 32px;
+    color: #FFFFFF;
+    font-weight: 200;
+}
+
+.banner h1 {
+    color: #FFFFFF;
+    font-size: 72px;
+    line-height: 95px;
+    width: 632px;
+    text-align: center;
+}
